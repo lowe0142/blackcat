@@ -6,3 +6,9 @@
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
 }
+
+@media (min-width: 768px) { 
+    .logo {
+        height: 400px;
+    }
+}
