@@ -1,3 +1,11 @@
-.table , .bardrip, .mug , .shirt , .giftcard , .owner , .beans , .andrea , .lea ,.window , .latte {
+.mug , .shirt , .giftcard , .owner , .beans , .andrea , .lea ,.window , .latte {
     height: 500px;
+}
+
+.logo {
+    height: 250px;
+}
+
+.icons {
+    text-decoration: none;
 }
