@@ -1,11 +1,12 @@
-.mug , .shirt , .giftcard , .owner , .beans , .andrea , .lea ,.window , .latte {
+.mug , .shirt , .giftcard , .owner , .andrea , .lea ,.window , .latte {
     height: 500px;
 }
 
 .logo {
     height: 250px;
 }
-
-.icons {
-    text-decoration: none;
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }

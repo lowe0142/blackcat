@@ -23,74 +23,74 @@
     <ul class="skip-links">
         <li><a href="index.html">Skip to main content</a></li>
       </ul>
-      <div class="banner">
-        <h1 class="mainh1" >The Black Cat Coffee Roasters</h1>
-        <div class="topnav">
-            <!-- Centered link -->
-            <div class="topnav-centered">
-              <a href="index.html" class="active">Home</a>
-            </div>
-        
-            <!-- Left-aligned links (default) -->
-            <a href="contact.html">Contact</a>
-          
-            <!-- Right-aligned links -->
-            <div class="topnav-right">
-              <a href="about.html">About</a>
-            </div>
-          
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Black Cat Coffee Roasters</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    <!--Social Media Icon buttons-->
-        <div class="icons">
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-twitter"></a>
-        </div>
-    </div>
-    <div class="intro">
-        <img class="beans" src="images/beans.jpg" alt="beans">
-        <h2>Who We Are</h2>
-        <p>Black Cat Coffee Roasters is a small, independent specialty coffee roaster based in Ottawa, Ontario, Canada. Black Cat Coffee was founded by Sonia Tire in 2017 due to her passion about roasting and crafting signature espresso beverages. After being a barista for 9 years Sonia wanted to elevate the coffee experiene for her community and thus created Black Cat. We are dedicated to create the perfect sip for each and every costumer that walks in our doors. We create a warm and inviting environement for all. We offer quality and presonalized drinks for every taste. Come and visit us today!</p>
+    </nav>
+    <div class="banner">
+        <img class="img-fluid p-2" src="images/beans.jpg" alt="beans">
+        <h2 class="text-center p-3 mb-2 bg-secondary text-white">Who We Are</h2>
+        <p class="text-center p-3 mb-1 bg-dark text-white">Black Cat Coffee Roasters is a small, independent specialty coffee roaster based in Ottawa, Ontario, Canada. Black Cat Coffee was founded by Sonia Tire in 2017 due to her passion about roasting and crafting signature espresso beverages. After being a barista for 9 years Sonia wanted to elevate the coffee experiene for her community and thus created Black Cat. We are dedicated to create the perfect sip for each and every costumer that walks in our doors. We create a warm and inviting environement for all. We offer quality and presonalized drinks for every taste. Come and visit us today!</p>
     </div>
     <div class="aboutimg">
-        <img class="owner" src="images/owner.jpg" alt="sonia">
+        <img class="img-fluid" src="images/owner.jpg" alt="sonia">
     </div>
     <div class="meet">
-        <h2>Meet Our Baristas!</h2>
+        <h2 class="text-center p-3 mb-2 bg-secondary text-white">Meet Our Baristas!</h2>
         <div class="andreainfo">
-            <img class="andrea" src="images/andrea.jpg" alt="andrea">
-            <table>
-                <tr>
-                  <th>Movie</th>
-                  <th>Music</th>
-                  <th>Coffee</th>
-                  <th>Snack</th>
-                </tr>
-                <tr>
-                  <td>Star Wars, Last Jedi</td>
-                  <td>The Beatles, Strawberry Fields</td>
-                  <th>Americano with White Mocha</th> 
-                  <th>Blueberry Muffin</th>
-                </tr>
-              </table>
+          <div class="card text-center text-white bg-dark" style="width: 20rem;">
+            <img class="card-img-top" src="images/andrea.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Andrea Lee</h5>
+              <p class="card-text">Main barista since 2017.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Favorite Movie: Star Wars, Last Jedi</li>
+              <li class="list-group-item">Favorite Song: Welcome, Wun Two</li>
+              <li class="list-group-item">Favorite Coffee: Americano with White Mocha</li>
+              <li class="list-group-item">Favorite Snack: Blueberry Muffin</li>
+            </ul>
         </div>
         <div class="leainfo">
-            <img class="lea" src="images/lea.jpg" alt="lea">
-            <table>
-                <tr>
-                  <th>Movie</th>
-                  <th>Music</th>
-                  <th>Coffee</th>
-                  <th>Snack</th>
-                </tr>
-                <tr>
-                  <td>Disney, Up</td>
-                  <td>Drake, HotlineBling</td>
-                  <th>Iced Lavender Latte</th> 
-                  <th>Cheese Danish</th>
-                </tr>
-              </table>
+          <div class="card text-center text-white bg-dark" style="width: 20rem;">
+            <img class="card-img-top" src="images/lea.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Lea Young</h5>
+              <p class="card-text">Customer Service & baker since 2017.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Favorite Movie: La La Land</li>
+              <li class="list-group-item">Favorite Song: Hotlinebling, Drake</li>
+              <li class="list-group-item">Favorite Coffee: Oatmilk Honey Latte</li>
+              <li class="list-group-item">Favorite Snack: Cheese Danish</li>
+            </ul>
         </div>
+    </div>
+    <div class="text-center">
+      <a href="https://instagram.com/" class="fa-2x fa fa-instagram bg-dark text-white m-1"></a>
+      <a href="https://youtube.com/" class="fa-2x fa fa-youtube bg-dark text-white m-1"></a>
+      <a href="https://twitter.com/" class="fa-2x fa fa-twitter bg-dark text-white m-1"></a>
     </div>
     <!--Inserts footer to add copyright and aria skip link to top-->
     <footer class="copyright">
