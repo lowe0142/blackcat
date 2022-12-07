@@ -22,94 +22,107 @@
 <body>
     <ul class="skip-links">
         <li><a href="index.html">Skip to main content</a></li>
-      </ul>
-      <div class="banner">
-        <h1 class="mainh1" >The Black Cat Coffee Roasters</h1>
-        <div class="topnav">
-            <!-- Centered link -->
-            <div class="topnav-centered">
-              <a href="index.html" class="active">Home</a>
-            </div>
-        
-            <!-- Left-aligned links (default) -->
-            <a href="contact.html">Contact</a>
-          
-            <!-- Right-aligned links -->
-            <div class="topnav-right">
-              <a href="about.html">About</a>
-            </div>
-          
+    </ul>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Black Cat Coffee Roasters</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    <!--Social Media Icon buttons-->
-        <div class="icons">
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-twitter"></a>
-        </div>
-    </div>
+      </nav>
     <section class="contactinfo">
-        <h2 class="contacth2">Contact Info</h2>
-        <table class="continf">
-            <tr itemscope itemtype="https://schema.org/Person"></tr>
-              <th>Email</th>
-              <th>Phone</th> 
-              <th>Address</th>
-            </tr>
+      <img class="img-fluid" src="images/barista.jpg" alt="beans">
+        <h2 class="text-center p-3 mb-2 bg-secondary text-white">Contact Info</h2>
+        <table class="text-center table table-striped table-dark">
+          <thead>
             <tr>
-              <td itemscope="email">glazedglo@gmail.com</td>
-              <td itemscope="number" >613-224-7683</td> 
-              <td itemscope ="address">819 Bank St, Ottawa, ON K1S 3V7</td>
+              <th scope="col">Phone</th>
+              <th scope="col">Email</th>
+              <th scope="col">Address</th>
             </tr>
-          </table>
+          </thead>
+          <tbody>
+            <tr>
+              <td>613-814-4573</td>
+              <td>blckcoffee@gmail.com</td>
+              <td>819 Bank St, Ottawa Ontario</td>
+          </tbody>
+        </table>
     </section>
   <!--Adds table to showcase store hours-->
     <div class="hours">
-      <h2 class="storeh2">Our Store Hours</h2>
-      <table>
+      <h2 class="text-center p-3 mb-2 bg-secondary text-white">Our Store Hours</h2>
+      <table class="text-center table table-striped table-dark">
+        <thead>
           <tr>
-            <th>Monday - Friday</th>
-            <th>Saturday & Sunday</th>
+            <th scope="col">Monday-Friday</th>
+            <th scope="col">Saturday-Sunday</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>7-6</td>
-            <td>8-7</td> 
-          </tr>
-        </table>
+            <td>8-4</td>
+        </tbody>
+      </table>
   </div>
   <!--Adds contact box form for costumers to reach to company-->
     <section class="contactbox">
         <form>
-            <h2 class="geth2">Get In Touch!</h2>
-            <div class="name">
+            <h2 class="text-center p-3 mb-2 bg-secondary text-white">Get In Touch!</h2>
+            <div class="text-center text-center p-3 bg-dark text-white">
                 <label for="yourname">Your Name</label><br>
                 <input type="fullname" id="name" name="name"><br>
             </div>
-            <div class="email">
+            <div class="text-center p-3 bg-dark text-white">
                 <label for="youremail">Your Email</label><br>
                 <input type="email" id="email" name="email"><br>
             </div>
-            <div class="message">
+            <div class="text-center text-center p-3 bg-dark text-white">
                 <label for="yourmessage">Your Message</label><br>
                 <input type="text" id="message" name="message"><br>
             </div>
-            <div>
+            <div class="d-grid gap-2 col-6 m-auto p-2">
               <!--Inserts send button-->
-                <button type="submit">Send</button>
+                <button type="button" class="btn btn-outline-dark">Send</button>
             </div>
             <!--Map layout of store location-->
             <div class="map">
-              <h2 class="map">Location</h2>
+              <h2 class="text-center p-3 mb-2 bg-secondary text-white">Location</h2>
               <p style="text-align: center;">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.347045114475!2d-75.6895089137695!3d45.40234089892316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05b8e906647f%3A0xeac749ca1d4f707a!2s819%20Bank%20St%2C%20Ottawa%2C%20ON%20K1S%202H5!5e0!3m2!1sen!2sca!4v1667422487039!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </form>
     </div>
     <div class="contactfoot">
-        <img class="window" src="images/windowseat.jpg" alt="window">
-        <h3>Visit Us Today!</h3>
+        <img class="img-fluid" src="images/windowseat.jpg" alt="window">
+        <h3 class="text-center">Visit Us Today!</h3>
+    </div>
+    <div class="text-center">
+      <a href="https://instagram.com/" class="fa-2x fa fa-instagram bg-dark text-white m-1"></a>
+      <a href="https://youtube.com/" class="fa-2x fa fa-youtube bg-dark text-white m-1"></a>
+      <a href="https://twitter.com/" class="fa-2x fa fa-twitter bg-dark text-white m-1"></a>
     </div>
    <!--Inserts footer to add copyright and aria skip link to top-->
-   <footer class="copyright">
+   <footer class="text-center">
     &copy; Glazed and Glorious 2022
     <a href="#top" aria-label="backtotop">Back to Top</a>
 </footer
