@@ -1,6 +1,9 @@
 # blackcat
 Black Cat Coffee Shop
-<!--Info About Images-->
-All "coffee shop images" as well as mockup templates are from PEXELS.com, free non copyrighted images used for creative purposes only
+<!--Info About Images, Font and Text-->
+All "stock coffee shop images" as well as mockup templates are from PEXELS.com, free non copyrighted images for creative purposes only
 Logo as well as merch created by Gabrielle Lowe (me) using Adobe Illustrator
 Font is Google Fonts: Spectral
+All placeholder text is written by Gabrielle Lowe (me)
+<!--Process-->
+My inspiration behind this website was my passion for design and graphics. I love creating logos and designing websites by utilizing fonts, color schemes, button styles etc. That being said, I also enjoy going to coffee shops to design most of my graphic design work thus, I came up with the idea to create The Black Cat Coffee Roasters Website. I wanted to create a website that featured my logo design as well as recent mock-ups I created for this imaginary coffee brand. From there, I utilized stock images from PEXELS which is a free non-copyrighted stock image website to add placeholder images. I began coding my website by structuring the HTML and added Bootstrap as my first framework to stylize the majority of my page. I additionally used a css style sheet to add a few elements but mainly for my aria roles and skip links. Following Bootrstrap, my second framework is Bulma. I mainly used Bulma to add specific icons to my page created by Font Awesome. I faced many challenges during this process however my main issue was with image responsiveness. Bootstrap claims that when you use a img-fluid tag your images should be responses, however I find in desktop mode my images are still too large for my liking. In conclusion, I have learnt that Bootstrap is a great styling shortcut. In comparison to the previous assignment, styling my portfolio went a lot smoother and was less time cosuming. 
